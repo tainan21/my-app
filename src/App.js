@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Grid, Image } from 'semantic-ui-react';
+import Bartop from "./components/Bartop/index";
+import Menu from "./components/Menu/index";
+import Sobre from "./components/Sobre/index";
+import MyTeam from "./components/MyTeam/index";
+import FooterNew from "./components/Footer/index";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+function ConsolidadoGerencial(props) {
+    return (
+      <div>
+        <Bartop />
+        <Menu/>
+        <Sobre/>
+        <MyTeam/>
+        <FooterNew/>
+      </div>
+    );
+  }
+
+export default ConsolidadoGerencial;
