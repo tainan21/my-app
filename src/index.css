@@ -12,9 +12,209 @@ code {
     monospace;
 }
 
-.testebox{
-  background-color: black;
-  height: 30px;
-  width: 30px;
-  padding: 30px;;
+
+/* BARTOP */
+
+.barTop{
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
+.iconBarTop{
+  color: #5d914a;
+}
+.IconPatter{
+  margin-left: 15px;
+}
+
+/* MENU */
+
+.menuBG{
+  background-color: #666;
+  width: 100%;
+  height: 800px;
+}
+
+.menuHeader{
+  background-color: #5d914a !important;
+  display: flex;
+  border-bottom-left-radius: 150% !important;
+  border-bottom-right-radius: 150% !important;
+  color: white !important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -4px 6px 15px 1px rgba(0,0,0,0.47);
+  margin: 0 !important;
+}
+
+.menuHeaderItem{
+  font-style: oblique ;
+  color: white !important;
+  margin-left: 15px !important;
+  text-transform: uppercase !important;
+}
+
+.menuBGText{
+  font-family:  Tahoma, Bebas !important;
+  font-weight: bold;
+  color: white !important;
+  font-size: 46px;
+  margin-bottom: 100px;
+  text-transform: uppercase; 
+}
+
+.menuBGButton{
+  padding: 8px 12px;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  font-family:  Tahoma, Bebas !important; 
+}
+.menuBGItems{
+  display: flex;  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/* ABOUT */
+
+.aboutGridCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin: 0 0 20px 0;
+}
+.aboutTitle{
+  text-align: center;
+  font-size: 38px;
+  font-family:  Tahoma, Bebas !important;
+  font-weight: bold;
+  color:  #5d914a;
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+.aboutTitleText{
+  text-align: center;
+  font-size: 36px;
+  font-family:  Tahoma, Bebas !important;
+  font-weight: bold;
+  color:  #383428;
+  margin: 25px 0;
+  text-align: justify;
+}
+.aboutText{
+  text-align: center;
+  font-size: 34px;
+  line-height: 50px !important;
+  font-family:  Tahoma, Bebas !important;
+  color:  #383428;
+  margin: 25px 0;
+  text-align: justify;
+}
+.aboutButton{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0px !important;
+  margin: 0 !important;
+  width: 450px;
+  height: 450px;
+  border-radius: 30px;
+  background-color: #5d914a;
+  color: white;
+}
+
+.aboutIcon{
+  font-size: 200px !important;
+  width: 450px !important;
+  height: 450px!important;
+  display: flex !important;
+  align-items: center ;
+  justify-content: center ;
+  position: relative !important;
+}
+
+/* My team */ 
+
+.boxMYT{
+  width: 100%;
+  height: 100%;
+  padding: 200px 0;
+  background-color: #5d914a;
+  margin-top: 150px;
+}
+
+.boxMYTTitle{
+  text-align: center;
+  font-size: 36px;
+  font-family:  Tahoma, Bebas !important;
+  font-weight: bold;
+  color:  #fff;
+  margin: 25px 0;
+  text-align: justify;
+}
+
+
+.boxMYTItem{
+  width: 100%;
+  height: 100%;
+  padding: 200px 0;
+  background-color: #5d914a;
+  margin-top: 150px;
+}
+
+.boxMYTItem{
+  background-color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+.boxMYTIcon{
+  color: #5d914a !important;
+  font-size: 140px !important;
+  display: flex !important;
+  align-items: center ;
+  justify-content: center ;
+  position: relative !important;
+}
+
+.boxMYTTextName{
+  text-align: center;
+  font-size: 36px;
+  font-family:  Tahoma, Bebas !important;
+  font-weight: bold;
+  color:  #fff;
+  margin: 25px 0;
+}
+.boxMYTText{
+  font-size: 32px;
+  font-family:  Tahoma, Bebas !important;
+  color:  #fff;
+  margin: 25px 0;
+  text-align: justify;
+}
+/* FOOTER  */
+
+.footer{
+  background-color: black;
+  word-wrap: 100%;
+  height: 50px;;
+}
+

@@ -1,6 +1,7 @@
 import React from 'react'
-import { Input } from 'semantic-ui-react'
+import { Icon, Header } from 'semantic-ui-react'
 
-const InputExampleInput = () => <Input placeholder='Search...' />
-
-export default InputExampleInput
+const Footer = () => (
+    <div className="footer">footer</div>
+)
+export default Footer
