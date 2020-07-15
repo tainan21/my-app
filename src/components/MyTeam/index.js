@@ -7,7 +7,7 @@ const GridExampleDividedNumber = () => (
     <div className="boxMYTTitle">
         Quer fazer parte do nosso time?
     </div>
-  <Grid columns={3} divided>
+  <Grid columns={3}>
     <Grid.Row>
       <Grid.Column>
         <div className="boxMYTWapper">
@@ -18,39 +18,91 @@ const GridExampleDividedNumber = () => (
                 Nome
             </div>
             <div className="boxMYTText">
-                lorem
+                "Lorem ipsum dolor sit amet.
             </div>
         </div>
       </Grid.Column>
+      
       <Grid.Column>
-           <div className="teamBox">
-            <Icon name="user" className="aboutIcon"></Icon>
+        <div className="boxMYTWapper">
+            <div className="boxMYTItem">
+                <Icon name="user" className="boxMYTIcon"></Icon>
+            </div>
+            <div className="boxMYTTextName">
+                Nome
+            </div>
+            <div className="boxMYTText">
+                "Lorem ipsum dolor sit amet. 
+            </div>
         </div>
       </Grid.Column>
+      
       <Grid.Column>
-           <div className="teamBox">
-            <Icon name="user" className="aboutIcon"></Icon>
+        <div className="boxMYTWapper">
+            <div className="boxMYTItem">
+                <Icon name="user" className="boxMYTIcon"></Icon>
+            </div>
+            <div className="boxMYTTextName">
+                Nome
+            </div>
+            <div className="boxMYTText">
+                "Lorem ipsum dolor sit amet. 
+            </div>
+        </div>
+      </Grid.Column>
+      
+      <Grid.Column>
+        <div className="boxMYTWapper">
+            <div className="boxMYTItem">
+                <Icon name="user" className="boxMYTIcon"></Icon>
+            </div>
+            <div className="boxMYTTextName">
+                Nome
+            </div>
+            <div className="boxMYTText">
+                "Lorem ipsum dolor sit amet. 
+            </div>
+        </div>
+      </Grid.Column>
+      
+      <Grid.Column>
+        <div className="boxMYTWapper">
+            <div className="boxMYTItem">
+                <Icon name="user" className="boxMYTIcon"></Icon>
+            </div>
+            <div className="boxMYTTextName">
+                Nome
+            </div>
+            <div className="boxMYTText">
+                "Lorem ipsum dolor sit amet. 
+            </div>
+        </div>
+      </Grid.Column>
+      
+      <Grid.Column>
+        <div className="boxMYTWapper">
+            <div className="boxMYTItem">
+                <Icon name="user" className="boxMYTIcon"></Icon>
+            </div>
+            <div className="boxMYTTextName">
+                Nome
+            </div>
+            <div className="boxMYTText">
+                "Lorem ipsum dolor sit amet. 
+            </div>
         </div>
       </Grid.Column>
     </Grid.Row>
-
-    <Grid.Row>
-      <Grid.Column>
-           <div className="teamBox">
-            <Icon name="user" className="aboutIcon"></Icon>
-        </div>
-      </Grid.Column>
-      <Grid.Column>
-           <div className="teamBox">
-            <Icon name="user" className="aboutIcon"></Icon>
-        </div>
-      </Grid.Column>
-      <Grid.Column>
-           <div className="teamBox">
-            <Icon name="user" className="aboutIcon"></Icon>
-        </div>
-      </Grid.Column>
-    </Grid.Row>
+    <div className="boxMYTWapperButton">
+        <a href="" className="boxMYTButton">
+            <Icon.Group size='big'>
+                <Icon name='whatsapp' />
+            </Icon.Group>
+            Vamos conversar?
+        </a>
+    </div>
+        
+      
   </Grid>
   </Container>
   </div>

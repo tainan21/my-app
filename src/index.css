@@ -23,12 +23,15 @@ code {
   align-items: center;
   justify-content: center;
   background-color: white;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999;
 }
 .iconBarTop{
   color: #5d914a;
 }
 .IconPatter{
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 /* MENU */
@@ -38,17 +41,19 @@ code {
   width: 100%;
   height: 800px;
 }
-
 .menuHeader{
+  align-items: center;
   background-color: #5d914a !important;
   display: flex;
-  border-bottom-left-radius: 150% !important;
-  border-bottom-right-radius: 150% !important;
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
   color: white !important;
-  align-items: center;
   justify-content: center;
   box-shadow: -4px 6px 15px 1px rgba(0,0,0,0.47);
   margin: 0 !important;
+  top: 72px !important;
+  z-index: 9998 !important;
+  position: sticky !important;
 }
 
 .menuHeaderItem{
@@ -59,7 +64,7 @@ code {
 }
 
 .menuBGText{
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   font-weight: bold;
   color: white !important;
   font-size: 46px;
@@ -73,7 +78,7 @@ code {
   border-radius: 15px;
   color: white;
   font-weight: bold;
-  font-family:  Tahoma, Bebas !important; 
+  font-family:  'Segoe UI'!important; 
 }
 .menuBGItems{
   display: flex;  
@@ -100,7 +105,7 @@ code {
 .aboutTitle{
   text-align: center;
   font-size: 38px;
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   font-weight: bold;
   color:  #5d914a;
   margin: 25px 0;
@@ -109,7 +114,7 @@ code {
 .aboutTitleText{
   text-align: center;
   font-size: 36px;
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   font-weight: bold;
   color:  #383428;
   margin: 25px 0;
@@ -119,7 +124,7 @@ code {
   text-align: center;
   font-size: 34px;
   line-height: 50px !important;
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   color:  #383428;
   margin: 25px 0;
   text-align: justify;
@@ -160,10 +165,10 @@ code {
 .boxMYTTitle{
   text-align: center;
   font-size: 36px;
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   font-weight: bold;
   color:  #fff;
-  margin: 25px 0;
+  margin: 25px 0 100px 0;
   text-align: justify;
 }
 
@@ -190,31 +195,67 @@ code {
   color: #5d914a !important;
   font-size: 140px !important;
   display: flex !important;
-  align-items: center ;
-  justify-content: center ;
+  align-items: center;
+  justify-content: center;
   position: relative !important;
 }
 
 .boxMYTTextName{
   text-align: center;
   font-size: 36px;
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   font-weight: bold;
   color:  #fff;
   margin: 25px 0;
 }
 .boxMYTText{
   font-size: 32px;
-  font-family:  Tahoma, Bebas !important;
+  font-family:  'Segoe UI'!important;
   color:  #fff;
   margin: 25px 0;
   text-align: justify;
+  line-height: 35px !important;
+}
+.boxMYTWapperButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.boxMYTButton{
+    padding: 50px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+    transition: 0.4s linear;
+}
+.boxMYTButton:hover{
+  color: #5d914a;
+  background-color: #fff;
 }
 /* FOOTER  */
 
 .footer{
-  background-color: black;
-  word-wrap: 100%;
-  height: 50px;;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #5d914a;
+  font-weight: bold;
+  font-family:  'Segoe UI'!important;
 }
 
+.iconBarFooter{
+  font-size: 48px;
+  
+}
