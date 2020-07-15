@@ -10,8 +10,8 @@ export default class MenuExampleInvertedSecondary extends Component {
 
     return (
       <div className="menuBG">
-      <Segment className="menuHeader">
-        <Menu pointing secondary  className="">
+      <Segment className="menuHeader" >
+        <Menu pointing secondary fixed className="">
           <Menu.Item
             name='Inicio'
             className="menuHeaderItem"
@@ -62,3 +62,4 @@ export default class MenuExampleInvertedSecondary extends Component {
     )
   }
 }
+  
